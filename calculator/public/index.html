@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<style>
+    .button1 {
+        box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 90px;
+font-size: 40px;
+background: #608793;
+width: 70px;
+height: 70px;
+margin: 6px;
+transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #ca5555; /* Green */
+    color: rgb(22, 22, 22);
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+
+        <div class="calculator">
+            <input type="text" name="screen" id="screen">
+            <table>
+                <tr>
+                    <!-- <td><button type="button" class="btn btn-primary">P</button</td> -->
+                        <td><button class="button1">(</button></td>
+                        <td><button class="button1">)</button></td>
+                        <td><button class="button1">C</button></td>
+                        <td><button class="button1">%</button></td>
+                    
+                    <!-- <td><button>)</button></td>
+                    <td><button>C</button></td>
+                    <td><button>%</button></td> -->
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button class="button1">X</button></td>
+                    <!-- <td><button>X</button></td> -->
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button class="button1">-</button></td>
+                    <!-- <td><button>-</button></td> -->
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button class="button1">+</button></td>
+                    <!-- <td><button>+</button></td> -->
+                </tr>
+                <tr>
+                    <td><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>/</button></td>
+                    <td><button class="button1">=</button></td>
+                    <!-- <td><button>=</button></td> -->
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
